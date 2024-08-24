@@ -46,7 +46,7 @@
 (defun fortee-format-logseq-quote (str depth)
   (let ((indent (make-string 2 ?\t)))
     (replace-regexp-in-string "^" indent
-                              (concat "#+BEGIN_QUOTE\n"
+                              (concat "- #+BEGIN_QUOTE\n"
                                       (replace-regexp-in-string "\n\n+" "\n\n" str)
                                       "\n#+END_QUOTE"))
   ))
