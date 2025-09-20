@@ -74,3 +74,7 @@
                :author   ,(fortee--trim-whitespaces (dom-text author-span))
                :twitter ,(dom-attr twitter-a 'href))
         (message "No div.md found")))))
+
+(defun fortee--trim-whitespaces (text)
+  (string-trim text))
+
