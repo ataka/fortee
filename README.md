@@ -1,3 +1,4 @@
+
 # fortee
 Emacs client for fortee
 
@@ -11,4 +12,4 @@ URL の入力を促されるので、fortee のトークのページの URL を�
 Logseq の Markdown ファイルが作成されます。
 
 ## 注意
-iOSDC 2024 でのみ検証しています。
+iOSDC Japan 2024/2025 でのみ検証しています。
